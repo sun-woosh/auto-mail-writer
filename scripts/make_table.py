@@ -10,7 +10,7 @@ import sys
 from datetime import date, timedelta
 from html import escape
 
-COLUMNS = ["이름", "소속", "등록일"]
+COLUMNS = ["이름", "국가", "등록일"]
 
 
 def parse(d: str) -> date:

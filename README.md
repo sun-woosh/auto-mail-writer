@@ -19,7 +19,7 @@ git clone https://github.com/sun-woosh/auto-mail-writer.git "$env:USERPROFILE\.c
 설치 후 Claude Code를 새로 시작합니다.
 
 ### 2. 입력 준비
-대시보드 등록자를 CSV로 준비합니다. 필수 컬럼은 `이름`, `소속`, `등록일`입니다 ([예시](examples/sample_input.csv)).
+대시보드 등록자를 CSV로 준비합니다. 필수 컬럼은 `이름`, `국가`, `등록일`입니다 ([예시](examples/sample_input.csv)).
 
 ### 3. 요청
 ```
@@ -64,5 +64,5 @@ python scripts/verify_draft.py examples/sample_output.md --count 4 --customer "�
 ```
 
 ## 참고
-- `references/customers.md`와 `examples/`의 데이터는 모두 **가상**입니다. 실제 사용 시 본인 고객사 정보로 바꾸세요.
+- `references/customers.md`와 `examples/`의 데이터는 모두 **가상**입니다. 샘플에 쓰인 인물 이름은 시연용으로 빌려온 공개 인물이며, 실제 등록 여부와는 무관합니다. 실제 사용 시 본인 고객사 정보로 바꾸세요.
 - "금주" 기준은 해당 주 월요일~발송일이며, `--start`/`--end`로 바꿀 수 있습니다.

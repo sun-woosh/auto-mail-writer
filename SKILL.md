@@ -18,7 +18,7 @@ description: 매주 수요일 고객사에 보내는 "금주 신규 대시보드
 | 6 | Guardrail | 발송 금지, 개인정보 제한, 승인 → `references/guardrails.md` |
 
 ## 입력
-- 등록자 목록 CSV (필수 컬럼: `이름`, `소속`, `등록일`). `examples/sample_input.csv` 참고.
+- 등록자 목록 CSV (필수 컬럼: `이름`, `국가`, `등록일`). `examples/sample_input.csv` 참고.
 - 고객사명 (`references/customers.md`에 있으면 생략 가능)
 - 발송일 (기본: 오늘)
 
